@@ -9,10 +9,9 @@ public class Task1_4 {
 
     // 定数（条件）
     // ① 名前とパスワードの定数を定義してください。
-    private static final String CONST_MSG_SUCCESS = "ログイン成功です。";
-    private static final String CONST_MSG_ERROR_NAME = "名前に誤りがあります。";
-    private static final String CONST_MSG_ERROR_PASS = "パスワードに誤りがあります。";
-    private static final String CONST_MSG_ERROR_INPUT = "入力情報に誤りがあります。";
+    private static final String name = "alice";
+    private static final String pass = "pass";
+    
     // 補足:
     //   定数は②〜⑤で使い回すために定義しておきます。
     //   final修飾子を付与すると、変数（動的に変わる値）ではなく、定数（変更不可な定まった値）となります。
@@ -20,10 +19,10 @@ public class Task1_4 {
     //   ※詳しくはJava2章にて紹介します。
 
     // 定数（メッセージ）
-    //private static final String CONST_MSG_SUCCESS = "ログイン成功です。";
-    //private static final String CONST_MSG_ERROR_NAME = "名前に誤りがあります。";
-    //private static final String CONST_MSG_ERROR_PASS = "パスワードに誤りがあります。";
-    //private static final String CONST_MSG_ERROR_INPUT = "入力情報に誤りがあります。";
+      private static final String CONST_MSG_SUCCESS = "ログイン成功です。";
+      private static final String CONST_MSG_ERROR_NAME = "名前に誤りがあります。";
+      private static final String CONST_MSG_ERROR_PASS = "パスワードに誤りがあります。";
+      private static final String CONST_MSG_ERROR_INPUT = "入力情報に誤りがあります。";
 
     public static void main(String[] args) {
         // 以下の変数「name（名前）」「pass（パスワード）」を使用して、②〜⑤の条件を満たす処理を記述してください。
