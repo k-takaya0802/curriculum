@@ -26,16 +26,10 @@ public class Main {
 
        //③ arr 配列をループさせ、isOdd関数を使って配列の要素が奇数かどうかの判定を行いなさい。
        //   要素が奇数の場合には「nは奇数です。」と出力されます。
-       for(int isOdd = 0; isOdd <= 10; isOdd++) {
-    	   if(isOdd % 2 != 0) {
-    		   System.out.println(isOdd + "は奇数です");
-    	   }
+       isOdd(arr[int % 2 != 0]);
+
        }
 
-
-
-
-   }
 
    //② 関数を定義しなさい。
    //   関数名：getName
