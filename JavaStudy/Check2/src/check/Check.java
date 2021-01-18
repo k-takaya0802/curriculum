@@ -8,6 +8,7 @@ public class Check{
 	private static String lastName = "駆";
 
 	public static void main(String[] args) {
+
 		System.out.println("printNameメソッド → " + printName(firstName, lastName));
 
 		Pet p = new Pet(Constants.CHECK_CLASS_JAVA,Constants.CHECK_CLASS_HOGE);
