@@ -1,0 +1,102 @@
+body {
+
+}
+
+.clearfix::after {
+
+	content: "";
+	display: block;
+	clear : both;
+
+}
+
+.header {
+
+	height: 100px;
+	width: 400px;
+	background-color: #141f40; 
+
+}
+
+.header-box {
+	position: absolute;
+	top: 30px; left: 230px; bottom: 30px; right: 30px;
+}
+
+.box1:first-child {
+	border-style: solid;
+	border-width: 10px 10px 10px 10px;
+	border-color: white;
+}
+
+.box1 {
+	height: 40px;
+	width: 40px;
+	background-color: #a9004b;
+	border-style: solid;
+	border-width: 10px 10px 10px 0px;
+	border-color: white;
+	float: left;
+}
+
+
+.content {
+
+}
+
+.left {
+
+	height: 250px;
+	width: 150px;
+	background-color: #80bfa8; 
+	float: left;
+
+}
+
+.right {
+
+	height: 250px;
+	width: 250px;
+	background-color: #8c2727;
+	float: left;
+
+}
+
+.right-box {
+	position: absolute;
+	top: 145px; left: 195px; bottom: 45px; right: 65px;
+}
+
+.box2 {
+
+	height: 40px;
+	width: 140px;
+	background-color: #ff863f;
+	border: solid 5px white;
+	margin-bottom: 10px;
+
+}
+
+.footer {
+
+	height: 100px;
+	width: 400px;
+	background-color: #d98d30; 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
