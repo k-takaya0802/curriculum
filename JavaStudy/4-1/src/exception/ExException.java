@@ -61,7 +61,7 @@ public class ExException {
                     // 問①: 強制的に「NullPointerException」を発生させるメソッドを作成し、呼び出しなさい。
                     // 問①は最下部にもあります。
                     // ルール: ここへ作成したメソッドを呼び出す
-                    	throw new NullPointerException();
+                    throw new NullPointerException();
 
 
 				case CONST_EXCEPTION_TRIGER_ARRAY_OUT_OF_BOUNDS:
@@ -112,7 +112,7 @@ public class ExException {
      */
     // ここへ記述
     private static void NullPointerException (final NullPointerException e) {
-    	System.out.println(CONST_MSG_NULLPO);
+    	throw new NullPointerException(CONST_MSG_NULLPO);
 	}
 
 
