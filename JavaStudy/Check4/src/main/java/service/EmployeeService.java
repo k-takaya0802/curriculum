@@ -21,7 +21,7 @@ public class EmployeeService {
  /** ドライバーのクラス名 */
  private static final String POSTGRES_DRIVER = "org.postgresql.Driver";
  /** ・JDMC接続先情報 */
- private static final String JDBC_CONNECTION ="jdbc:postgresql//localhost:5432/lesson_db";
+ private static final String JDBC_CONNECTION ="jdbc:postgresql://localhost:5432/lesson_db";
  /** ・ユーザー名 */
  private static final String USER = "postgres";
  /** ・パスワード */
